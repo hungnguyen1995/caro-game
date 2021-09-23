@@ -1,0 +1,12 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/Users/hungnguyen/.cache/firebase/emulators/firebase-database-emulator-v4.7.2.jar) to field sun.nio.ch.SelectorImpl.selectedKeys
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+19:28:03.956 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+19:28:04.126 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+19:29:18.559 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+19:29:18.574 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: sieuviet-caro-default-rtdb
+19:29:18.585 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for sieuviet-caro-default-rtdb
+19:29:18.586 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for sieuviet-caro-default-rtdb
+19:29:18.592 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.

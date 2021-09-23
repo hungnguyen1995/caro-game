@@ -1,0 +1,51 @@
+.game-board,
+.disabled-game-board {
+  display: flex;
+  flex-direction: row;
+  /* Left + right padding + (square width * n squares) = 100vw */
+  padding: 0 35vw 0 19vw;
+}
+
+.disabled-game-board {
+  pointer-events: none;
+}
+
+.board-row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-weight: bold;
+  font-size: 3vw;
+  padding: 0;
+  text-align: center;
+  width: 4vw;
+  height: 4vw; /*should equal width*/
+}
+
+.winning-square {
+  background: red;
+}
+
+.color-x{
+  color: red;
+}
+
+.color-o{
+  color:#274fc2;
+}
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
