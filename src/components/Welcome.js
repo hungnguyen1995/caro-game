@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { SignIn } from "./SignIn";
 import { OnlineGameForm } from "./GameComponents";
-import instruction_unblocked from "../assets/instruction_unblocked.png";
-import instruction_blocked from "../assets/instruction_blocked.png";
 
 class Welcome extends React.Component {
   render() {
