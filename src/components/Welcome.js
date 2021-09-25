@@ -16,7 +16,7 @@ class Welcome extends React.Component {
           createOnlineGame={this.props.createOnlineGame}
         />
         <div className="how-to-play">
-            <marquee>Chào mừng đến với giải SiêuViệt Ao làng mở rộng lần thứ 1 ! =))</marquee>
+            <h1>Chào mừng đến với giải SiêuViệt Ao làng mở rộng lần thứ 1 ! =))</h1>
         </div>
       </div>
     );

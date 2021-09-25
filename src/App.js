@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route, Link, withRouter } from "react-router-dom";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import { UserContext } from "./context/UserProvider";
 import { db } from "./components/firebase";
