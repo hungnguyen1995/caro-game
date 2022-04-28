@@ -6,7 +6,7 @@ import { UserContext } from "../context/UserProvider";
 import { Square, StatusMessages, OnlineGameMessages } from "./GameComponents";
 import { SignIn } from "./SignIn";
 
-const BOARD_SIZE = 15;
+const BOARD_SIZE = 18;
 const DEFAULT_K = 4; // 4 in a row to win if open-ended, 5 if close-ended
 
 class Game extends React.Component {
